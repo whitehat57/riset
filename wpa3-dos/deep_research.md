@@ -166,4 +166,4 @@ Continued research, responsible disclosure, and vendor engagement are essential 
 --- 
 
 *Last updated: 2025‑09‑16*  
-*Author: [Your Name / Research Team]*  
+*Author: Danz57*  
