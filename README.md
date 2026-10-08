@@ -5,6 +5,7 @@ Repository ini berisi dokumentasi, analisis, dan bahan riset dalam bidang cybers
 - **Dark Web OSINT** – panduan, teknik, dan tool untuk pengumpulan intelligence dari sumber-sumber tersembunyi secara safe & legal.
 - **WAF & DDoS Bypass Techniques** – studi teknik manipulasi HTTP Header (CL.TE, TE.CL, TE.TE, hop-by‑ hop manipulation, custom header override) yang dapat digunakan untuk bypass Web Application Firewall dan perlindungan DDoS, termasuk analisis mitigasi dan rule deteksi.
 - **Golang DDoS Simulation Tool** – proof‑of‑concept implements HTTP/2 Rapid Reset (CVE‑2023-44487) and Slowloris attacks using goroutine and libraries like Vegeta for authorized security testing.
+- **WPA3‑SAE Denial of Service** – deep research on SAE resource‑exhaustion attacks (Dragon Drain, Cookie Guzzler, and generic DoS techniques) including mitigation strategies and lab setup.
 
 ## Struktur Direktori
 
@@ -16,12 +17,15 @@ riset/
 ├── waf-bypass-techniques/
 │   ├── technique_map.md    # Ringkasan 5 teknik manipulasi header modern
 │   └── deep_analysis.md    # Analisis mendalam, contoh serangan, rules deteksi, panduan lab
-└── golang-ddos-tool/
-    ├── main.go             # Skeleton implementation (Rapid Reset & Slowloris)
-    ├── go.mod              # Go module definition
-    └── README.md           # Usage, building, and disclaimer
-    └── research/
-        └── rapidreset_deep.md   # Deep research on HTTP/2 Rapid Reset (CVE-2023-44487)
+├── golang-ddos-tool/
+│   ├── main.go             # Skeleton implementation (Rapid Reset & Slowloris)
+│   ├── go.mod              # Go module definition
+│   ├── README.md           # Usage, building, and disclaimer
+│   └── research/
+│       └── rapidreset_deep.md   # Deep research on HTTP/2 Rapid Reset (CVE-2023-44487)
+└── wpa3-dos/
+    ├── article.md          # Fetched source (markdown via r.jina.ai)
+    └── deep_research.md    # Detailed analysis, mitigation, and lab guide for WPA3‑SAE DoS
 ```
 
 ## Cara Menggunakan
